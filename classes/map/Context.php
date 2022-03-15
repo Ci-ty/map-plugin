@@ -157,4 +157,13 @@ class Context implements ContextInterface
     {
         return $this->date;
     }
+
+    /**
+     * Prevents errors when object in string context
+     * @return string
+     */
+    public function __toString(): string
+    {
+        return '';
+    }
 }
