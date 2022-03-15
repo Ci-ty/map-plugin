@@ -3,3 +3,4 @@
     - create_table_maps.php
     - create_table_markers.php
     - create_table_sources.php
+1.0.1: 'Add compatibility with October CMS 2.2'
