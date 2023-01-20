@@ -35,7 +35,6 @@ fields:
         label: 'city.map::lang.markers.menu_label'
         nameFrom: name
         select: concat(name, IF(!is_active, ' (Disabled!)', ''))
-        order: is_active DESC, created_at DESC
         span: left
         type: relation
         comment: 'city.map::lang.maps.markers_comment'
